@@ -1,0 +1,42 @@
+.dragAndDrop_main_con {
+    border: 1px solid #eaecf0;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    .browse_text {
+      font-family: var(--fontFamily-300);
+      font-size: 14px;
+      font-weight: 300;
+      color: #191d23;
+      .dragAndDrop_click_upload {
+        font-family: var(--fontFamily-600);
+        font-size: 14px;
+        font-weight: 600;
+        color: #070b5c;
+      }
+    }
+    .dragAndDrop_upload_icon_con {
+      background-color: #f2f4f7;
+      border: 6px solid #f9fafb;
+      border-radius: 50%;
+      padding: 10px;
+    }
+   
+    .drop_image_con {
+      border: 2px dashed #d3d3d3;
+      border-radius: 5px;
+      position: relative;
+      min-height: 100px;
+      width: 100px;
+   
+      .drop_remove_icon {
+        position: absolute;
+        top: -2px;
+        background-color: white;
+        right: -3px;
+        border-radius: 50%;
+        border: 1px solid var(--primary-color) !important;
+        padding: 3px;
+      }
+    }
+  }
