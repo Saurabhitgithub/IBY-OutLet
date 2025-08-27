@@ -1,3 +1,4 @@
 credentials
-admin@ibyoutlet.com
-– Admin@12345
+user name :- admin@ibyoutlet.com
+password:– Admin@12345
+
